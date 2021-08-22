@@ -1,6 +1,6 @@
 var readlineSync = require('readline-sync');
 var chalk = require('chalk')
-console.log("Hey Stranger. Let's Play" + chalk.red.bold("The Average GK Quiz") + ". It has a total of 10 questions.")
+console.log("Hey Stranger. Let's Play" + chalk.red.bold("The Bitcoin Quiz!") + ". It has a total of 10 questions.")
 var userName = readlineSync.question("Please state your name: ");
 console.log("Hello " + chalk.yellow.bold(userName) + "! Let the Game Begin.")
 var score = 0;
